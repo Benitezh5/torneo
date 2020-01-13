@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+
+
+
+	<title>403 Forbidden</title>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+<p>Directory access is forbidden.</p>
+
+</body>
+</html>
+
+
+<!-- <?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class M extends CI_Model {
+
+	public function get_(){
+		$this->db->select("");
+		$this->db->from("");
+		$this->db->join("", "");
+		
+		$exe=$this->db->get();
+		return $exe->result();
+	}
+
+	public function eliminar($id){
+		$this->db->where("id_", $id);
+		$this->db->delete("");
+
+		if($this->db->affected_rows() > 0){
+			return true;
+
+		}else{
+			return false;
+		}
+	}
+
+	public function get_--(){
+		$exe = $this->db->get('--');
+		return $exe->result();
+	}
+
+	public function set_alumno($datos){
+		$this->db->set('--', $datos["--"]);
+		$this->db->set('id_', $datos["--"]);
+
+		$this->db->insert('--');
+
+		if($this->db->affected_rows()>0){
+			return "add";
+		}
+	}
+
+	public function get_datos($id){
+		$this->db->where('id_',$id);
+		$exe = $this->db->get('--');
+
+		if($exe->num_rows()>0){
+			return $exe->row();
+		}else{
+			return false;
+		}
+	}
+
+
+	public function actualizar($datos){
+		$this->db->set('--',$datos['--']);
+		$this->db->set('id_',$datos['--']);
+		$this->db->where('id_',$datos['id_']);
+		$this->db->update('--');
+
+		if($this->db->affected_rows()>0){
+			return "edi";
+		}
+	}
+
+
+
+} -->
